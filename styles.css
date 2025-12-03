@@ -1,0 +1,238 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #fff;
+  margin: 0;
+  color: #444;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px 0 40px;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 21%
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.site-title {
+display: grid;
+  font-size: 1.6rem;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
+  margin-left: 10px;
+  grid-row-gap: 0px;
+  
+}
+
+.site-desc {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: #888;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.header-icons {
+  display: flex;
+  gap: .7px;
+margin-left: 18%;
+}
+.starter-icons {
+  display: flex;
+  gap: .7px;
+  margin-right: 21%;
+}
+
+.icon {
+  background: #eee;
+  border-radius: 3px;
+  padding: 4px 6px;
+  font-size: 0.9rem;
+}
+.section-divider1 {
+width: 56%;
+  margin: 0 auto;
+  display: block;
+  height: 15px;
+}
+
+.section-divider2 {
+ width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 15px;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.title-row h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.print-link {
+  font-size: 0.9rem;
+  color: #888;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #b7b7b7;
+  margin-bottom: 8px;
+}
+
+.main-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0% auto;
+  padding: 0% 0 0% 0;
+
+  
+}
+
+.main-photo img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+  border: 8px solid #fff;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.icon-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.recipe-text p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+}
+
+.ingredients-list {
+  display: flex;
+  background: #fcf6e3;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 24px 32px;
+  gap: 48px;
+  margin-bottom: 24px;
+
+}
+
+.ingredients-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 1.05rem;
+}
+
+.ingredients-col label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.line-strike {
+  text-decoration: line-through;
+}
+
+.author-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.author-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.author-desc {
+  font-size: 0.97rem;
+  color: #888;
+}
+.footer-logo {
+  width: 40px;
+  height: 40px;
+
+}
+.footer-content {
+  width: 900px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+.hr-right
+{
+width: 42%;
+border: none;
+border-top: 1px solid gray;
+float: right;
+}
+.hr-left
+ {
+width: 42%;
+border: none;
+border-top: 1px solid gray;
+float: left;
+}
+
+.main-footer {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #aaa;
+  margin: 32px 0 16px 0;
+}
